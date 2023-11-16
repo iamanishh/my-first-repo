@@ -141,5 +141,130 @@ Component
  A component has two characteristics, a master and an instance, which is a copy of the master.
 
 
+===============================
+=============================
+-> start-up to work with forms
+-> learn gsap
+-> learn locomotive js 
+   (https://github.com/locomotivemtl/locomotive-scroll)
+
+
+1) set (min-height:100vh) in hero section.
+   set (min-height:70vh) after @media query 
+      to avoid whitespace gap.
+
+2) position:fixed => it will be fixed wrt viewport
+   position:absolute => it will be fixed wrt parent
+
+### ===> 
+This is the best practice for creating any component 
+while designing a websites
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+}
+
+### ===> 
+typescales
+realtimecolors
+tinypng
+image => lazy-loader (reduces 50% time)
+
+************************
+- learn nodejs,expressjs,monngoDB
+- 
+==============================
+=================================
+SKILL Required for JOB
+========================
+
+0) Basic Computer Fundamentals
+     - meta notes
+
+1) html
+     - meta notes
+     - Notes from mosh
+  # combine it at one place 
+       
+2) CSS
+     - meta notes
+     - Notes from mosh
+     - responsive notes form powell
+  # combine it at one place 
+   
+3) Animation
+     - transition/transform
+     - AOS
+     - GSAP
+  # Learn both and make a notes
+
+4) javascript
+     - meta notes
+     - notes from others
+     - learn advance concept from yt freecode (async)
+     - DOM from freecodecamp
+   # combine it at one place 
+
+5) JavaScript Projects
+     - make 5 basic projects
+     - make projects of sheriyans
+     - make highly advanced projects
+
+6) Reactjs 
+      - meta Notes
+      - Notes from others
+      - Learn Hooks and make notes
+
+7) Reactjs Projects
+      - make 5 basic projects
+      - Movie projects
+      - 1 more project
+
+8) Tailwind CSS
+     - 1project (only)
+
+9) Git & Github
+      - meta notes
+      - Learn from yt
+ # combine it at one place  
+
+10) FIGMA Design
+      - meta notes
+      - learn from yt
+      - dont go in details
+
+------------------------
+=> TypeScript
+       - 6pack programmer
+11) Next js
+       -simplyjs
+       - lamadev blog project
+
+12) Nodejs
+     - previous notes
+     - drop x out
+     - authenitcation
+           -simplyjs
+
+13) API
+      - learn with javascript
+      - learn with reactjs
+
+14) Express js
+      - previous notes
+      - drop x out
+ # combine it at one place  
+ 
+15) MongoDB 
+      - previous notes
+      - drop x out
+ # combine it at one place  
+
+16) SQL
+      -simplyjs
+
+===============================
+================================
 
 
