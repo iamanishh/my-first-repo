@@ -1,0 +1,1464 @@
+LOCOMOTIVE
+====================
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>| Animation</title>
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+    <div id="nav">
+      <div id="nav-part1">
+        <img
+        src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg"
+        alt=""
+        />
+      </div>
+
+      <div id="nav-part2">
+        <h4>Home</h4>
+        <h4>Work</h4>
+        <h4>Studio</h4>
+        <h4>Contact</h4>
+      </div>
+
+      <div id="nav-part3">
+        <div id="circle"></div>
+      </div>
+    </div>
+
+    <!-- main code starts here   -->
+    <div class="main">
+      <div class="page1">
+        <h1>Digitally Crafted</h1>
+        <h2>Brand Experience</h2>
+        <video autoplay muted loop src="./video.mp4"></video>
+      </div>
+
+      <div class="page2">
+        <h1>We are Duo Studio,</h1>
+        <div class="page2-container">
+            <div class="page2-left">
+                <h2>A CREATIVE
+                    COLLECTIVE
+                    MADE TO UNLOCK
+                    YOUR BRAND’S
+                    POTENTIAL</h2>
+            </div>
+            <div class="page2-right">
+                <p>We weave together bold strategy and creative execution to produce thought-provoking digital
+                    experiences. We take a highly personalized approach to delivering branding, web design, and
+                    content marketing solutions. Born in the DC area - now serving clients worldwide.</p>
+
+                <button>About us</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="page3">
+        <h1>Selected Works</h1>
+        <div class="page3-part1">
+            <img src="https://d33wubrfki0l68.cloudfront.net/aa3d2ff66de5f16336bd94fd68c3c2ce61e29f68/d5064/assets/home/home-casestudy-mgny.webp"
+                alt="">
+            <video autoplay loop muted
+                src="https://d33wubrfki0l68.cloudfront.net/a13ea7c2ca2f38134748966280e54af4340ce821/f976d/assets/home/projects_madegood-reduced.mp4"></video>
+        </div>
+        <div class="page3-part1 reverse">
+            <img src="https://d33wubrfki0l68.cloudfront.net/aa3d2ff66de5f16336bd94fd68c3c2ce61e29f68/d5064/assets/home/home-casestudy-mgny.webp"
+                alt="">
+            <video autoplay loop muted
+                src="https://d33wubrfki0l68.cloudfront.net/a13ea7c2ca2f38134748966280e54af4340ce821/f976d/assets/home/projects_madegood-reduced.mp4"></video>
+        </div>
+        <div class="page3-part1 ">
+            <img src="https://d33wubrfki0l68.cloudfront.net/aa3d2ff66de5f16336bd94fd68c3c2ce61e29f68/d5064/assets/home/home-casestudy-mgny.webp"
+                alt="">
+            <video autoplay loop muted
+                src="https://d33wubrfki0l68.cloudfront.net/a13ea7c2ca2f38134748966280e54af4340ce821/f976d/assets/home/projects_madegood-reduced.mp4"></video>
+        </div>
+    </div>
+
+    <div class="page4">
+      <div class="elem">
+          <img src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+              alt="">
+          <div class="text-div">
+              <h1>Design</h1>
+              <h1>Design</h1>
+          </div>
+          <img src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+              alt="">
+      </div>
+
+      <div class="elem">
+          <img src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+              alt="">
+          <div class="text-div">
+              <h1>Strategy</h1>
+              <h1>Strategy</h1>
+          </div>
+          <img src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+              alt="">
+      </div>
+
+      <div class="elem">
+          <img src="https://d33wubrfki0l68.cloudfront.net/3401770635e95968e300d88f8b9479ecbc008eeb/be2e5/assets/home/home-experience-1.webp"
+              alt="">
+          <div class="text-div">
+              <h1>Development</h1>
+              <h1>Development</h1>
+          </div>
+          <img src="https://d33wubrfki0l68.cloudfront.net/188bb09da2a445d08ac5b4f706711772e50e8a17/e100a/assets/home/home-experience-2.webp"
+              alt="">
+      </div>
+    </div>
+
+    <div class="page5">
+    </div>
+
+    <!-- script tags -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+=============================
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.cursor {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: fixed;
+  background-color: #edbfff;
+  z-index: 8;
+  mix-blend-mode: difference;
+
+  transition: background-image ease 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  background-color: #0f0d0d;
+}
+
+#nav {
+  height: 55px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: fixed;
+  mix-blend-mode: difference;
+  z-index: 999;
+}
+
+#nav img {
+  height: 27px;
+}
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#nav #circle {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+#nav h4 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#nav h4:nth-child(1) {
+  border-bottom: 1.5px solid #fff;
+}
+
+.page1 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 9;
+  padding-top: 12vw;
+}
+
+.page1 h1 {
+  font-size: 8vw;
+  font-weight: 300;
+  font-family: PP mori;
+
+  margin-left: 6vw;
+  /* transform-origin: left; */
+}
+.page1 h2 {
+  font-size: 8vw;
+  font-weight: 300;
+
+  margin-left: 26vw;
+  /* transform-origin: left; */
+  /* overflow-x: hidden; */
+}
+
+.page1 video {
+  width: 60%;
+  margin-top: 5vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* page2 code starts from here   */
+
+.page2 {
+  min-height: 70vh;
+  width: 100%;
+  padding: 100px 5vw;
+  border-bottom: 2px solid #6c6c6c;
+  position: relative;
+  z-index: 9;
+}
+
+.page2 h1 {
+  font-size: 7vw;
+  font-weight: 500;
+  color: #111;
+}
+.page2-container {
+  height: 60vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page2-left {
+  width: 40%;
+}
+.page2-right {
+  width: 24%;
+}
+.page2-left h2 {
+  font-size: 4vw;
+  font-weight: 300;
+  line-height: 4vw;
+  color: #111;
+}
+.page2-right p {
+  font-size: 16px;
+  color: #111;
+}
+.page2-right button {
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  padding: 4px 0;
+  margin-top: 20px;
+
+  background-color: #edbfff;
+  color: #111;
+}
+
+/* page2 code starts from here   */
+.page3 {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 100px;
+  position: relative;
+  z-index: 9;
+}
+
+.page3 h1 {
+  font-size: 6.8vw;
+  font-weight: 300;
+  color: #111;
+  margin-left: 100px;
+}
+.page3-part1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.page3-part1 .reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.page3-part1 img {
+  height: 400px;
+
+  /* height: 400px; */
+  margin-top: 160px;
+}
+.page3-part1 video {
+  height: 300px;
+  margin-top: 40px;
+}
+
+/* page4 code starts from here  */
+/* .page4 {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #e8fce8; 
+} */
+.page5 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f0f3db;
+}
+
+/* page4 code starts from here  */
+
+.page4 {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 9;
+  position: relative;
+  padding: 170px 100px;
+}
+.elem {
+  /* background-color: salmon; */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.elem img {
+  position: absolute;
+  opacity: 0;
+  transition: all ease-out 0.5s;
+  transform: translateY(10%) rotate(2deg);
+}
+.elem img:nth-child(1) {
+  left: 2%;
+}
+.elem img:nth-child(3) {
+  right: 5%;
+}
+.text-div {
+  height: 16vh;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+}
+.elem h1 {
+  font-size: 7.5vw;
+  font-weight: 600;
+  transition: all ease-out 0.5s;
+}
+
+.elem:hover h1 {
+  transform: translateY(-100%);
+  color: #edbfff;
+}
+.elem:hover img {
+  opacity: 1;
+  transform: translateY(0%) rotate(0deg);
+}
+==========================================
+function init() {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const locoScroll = new LocomotiveScroll({
+    el: document.querySelector(".main"),
+    smooth: true,
+  });
+  locoScroll.on("scroll", ScrollTrigger.update);
+
+  ScrollTrigger.scrollerProxy(".main", {
+    scrollTop(value) {
+      return arguments.length
+        ? locoScroll.scrollTo(value, 0, 0)
+        : locoScroll.scroll.instance.scroll.y;
+    },
+    getBoundingClientRect() {
+      return {
+        top: 0,
+        left: 0,
+        width: window.innerWidth,
+        height: window.innerHeight,
+      };
+    },
+    pinType: document.querySelector(".main").style.transform
+      ? "transform"
+      : "fixed",
+  });
+
+  ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+  ScrollTrigger.refresh();
+}
+init();
+
+var crcr = document.querySelector(".cursor");
+var main = document.querySelector(".main");
+
+main.addEventListener("mousemove", function (dets) {
+  crcr.style.left = dets.x + "px";
+  crcr.style.top = dets.y + "px";
+});
+
+var tl = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".page1 h1",
+    scroller: ".main",
+    // markers: true,
+    start: "top 27%",
+    end: "top 0",
+    scrub: 3,
+  },
+});
+var tl2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".page1 h1",
+    scroller: ".main",
+    // markers: true,
+    start: "top -115%",
+    end: "top -120",
+    scrub: 3,
+  },
+});
+
+tl.to(
+  ".page1 h1",
+  {
+    x: -100,
+  },
+  "anime"
+);
+
+tl.to(
+  ".page1 h2",
+  {
+    x: 300,
+  },
+  "anime"
+);
+
+tl.to(
+  ".page1 video",
+  {
+    width: "90%",
+  },
+  "anime"
+);
+
+tl2.to(".main", {
+  backgroundColor: "#f4eaf8",
+});
+===============================
+        SNAKE
+===============================
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Snake</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score">Press any key to start</div>
+      <div class="game"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+----------------------
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #e0b18e; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./snake.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-position: right bottom; */
+  background-size: 350px 300px;
+}
+
+.container {
+  height: 32rem;
+  width: 28rem;
+  background: #f5f0e5;
+  box-shadow: 0 0 10px 1px lightgray;
+}
+
+.score {
+  height: 3rem;
+  width: 100%;
+  background: #b6b4b4;
+  text-align: center;
+  padding: 10px 0;
+  font-size: larger;
+}
+
+.game {
+  height: 29rem;
+  width: 28rem;
+  display: grid;
+  grid-template: repeat(22, 1fr) / repeat(22, 1fr);
+}
+
+.food {
+  background-color: green;
+  border-radius: 50%;
+}
+.snake {
+  background-color: red;
+}
+-------------------------------
+let gameContainer = document.querySelector(".game");
+let scoreContainer = document.querySelector(".score");
+
+let foodX, foodY;
+
+let headX = 11;
+let headY = 11;
+
+let velocityX = 0;
+let velocityY = 0;
+
+let snakeBody = [];
+
+let score = 0;
+
+//   food generation fun
+function generateFood() {
+  foodX = Math.floor(Math.random() * 22) + 1;
+  foodY = Math.floor(Math.random() * 22) + 1;
+  for (let i = 0; i < snakeBody.length; i++) {
+    if (snakeBody[i][1] == foodY && snakeBody[i][0] == foodX) {
+      generateFood();
+    }
+  }
+}
+
+// gameOver fun
+function gameOver() {
+  headX = 11;
+  headY = 11;
+  generateFood();
+  velocityX = 0;
+  velocityY = 0;
+  snakeBody = [];
+  score = 0;
+  scoreContainer.innerHTML = "Score: " + score;
+
+  alert("Game over");
+}
+
+function renderGame() {
+  console.log("rendered");
+  let updatedGame = `<div class="food" style="grid-area: ${foodY}/${foodX}"></div>`;
+
+  if (foodX == headX && foodY == headY) {
+    snakeBody.push([foodX, foodY]);
+    generateFood();
+    score += 10;
+    scoreContainer.innerHTML = "Score: " + score;
+  }
+
+  snakeBody.pop();
+  headX += velocityX;
+  headY += velocityY;
+  snakeBody.unshift([headX, headY]);
+
+  if (headX == 0 || headY == 0 || headX == 23 || headY == 23) {
+    gameOver();
+  }
+  for (let i = 1; i < snakeBody.length; i++) {
+    if (
+      snakeBody[0][0] == snakeBody[i][0] &&
+      snakeBody[0][1] == snakeBody[i][1]
+    ) {
+      gameOver();
+    }
+  }
+
+  for (let i = 0; i < snakeBody.length; i++) {
+    updatedGame += `<div class="snake" style="grid-area: ${snakeBody[i][1]}/${snakeBody[i][0]}"></div>`;
+  }
+
+  gameContainer.innerHTML = updatedGame;
+}
+
+generateFood();
+setInterval(renderGame, 150);
+
+document.addEventListener("keydown", function (e) {
+  let key = e.key;
+  console.log(key);
+  //   right/down ==> ++
+  //   up/left ==> --
+  if (key == "ArrowUp" && velocityY != 1) {
+    velocityX = 0;
+    velocityY = -1;
+  } else if (key == "ArrowDown" && velocityY != -1) {
+    velocityX = 0;
+    velocityY = 1;
+  } else if (key == "ArrowLeft" && velocityX != 1) {
+    velocityX = -1;
+    velocityY = 0;
+  } else if (key == "ArrowRight" && velocityX != -1) {
+    velocityX = 1;
+    velocityY = 0;
+  }
+});
+
+
+========================================
+           NFTS
+========================================
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7ee9d86f8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <header>
+      <div class="nav-container">
+        <nav>
+          <div class="logo-wrap">
+            <a href="#" class="logo">Manish</a>
+          </div>
+          <div class="nav-ul">
+            <li class="nav-li"><a href="#" class="nav-a">about</a></li>
+            <li class="nav-li"><a href="#" class="nav-a">pricing</a></li>
+            <li class="nav-li"><a href="#" class="nav-a">buy nfts</a></li>
+            <li class="nav-li"><a href="#" class="nav-a">contact</a></li>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <img src="./images/circle half.png" alt="" class="circle-one" />
+      <img src="./images/Ellipse 2.png" alt="" class="circle-two" />
+      <div class="container">
+        <div class="split">
+          <div class="hero-left">
+            <h1>Discover and collect NFTs</h1>
+            <p>
+              The most secure place for buying and selling unique crypto assets
+            </p>
+            <div class="btn-wrap">
+              <a href="#" class="btn subheading">Buy NFTs</a>
+              <a href="#" class="ghost subheading">Sell NFTs</a>
+            </div>
+          </div>
+          <div class="hero-right">
+            <img src="./images/hero comp.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company  -->
+    <section class="company">
+      <div class="container">
+        <h2 class="subheading">featured on</h2>
+      </div>
+      <div class="marque" id="marque-ani">
+        <div class="marque-content">
+          <li></li>
+          <li><img src="./images/tech.svg" alt="" /></li>
+          <li></li>
+          <li><img src="./images/forbs shadow.svg" alt="" /></li>
+          <li></li>
+          <li><img src="./images/big shadow.svg" alt="" /></li>
+          <li></li>
+          <li><img src="./images/fast shadow.svg" alt="" /></li>
+        </div>
+      </div>
+      <div class="marque-fixed" id="marque-fixed">
+        <div class="marque-list">
+          <img src="images/tech.svg" />
+          <img src="images/big shadow.svg" />
+          <img src="images/fast shadow.svg" />
+          <img src="images/forbs shadow.svg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- buy  -->
+    <section class="buy">
+      <div class="container">
+        <div class="split">
+          <div class="buy-left">
+            <img src="./images/layout.svg" alt="" />
+          </div>
+          <div class="buy-right">
+            <h2 class="subheading">analytics</h2>
+            <h1>Built in analytics to track your NFTs</h1>
+            <p>
+              Use our built-in analytics dashboard to pull valuable insights and
+              monitor the value of your crypto portfolio over time
+            </p>
+            <a href="#" class="btn subheading">view price</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buy 2 -->
+    <section class="buy-two">
+      <div class="container">
+        <div class="split">
+          <div class="two-left">
+            <h2 class="subheading">24/7 access</h2>
+            <h1>Sell your NFTs from anywhere at any time</h1>
+            <p>
+              With our easy to use plateform, you can buy or sell assets from
+              anywhere in the world at any time
+            </p>
+            <a href="#" class="btn subheading">get started</a>
+          </div>
+          <div class="two-right">
+            <img src="./images/phone.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials  -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="review-title subheading">testimonials</h2>
+        <h1>read what others have to say</h1>
+        <div class="grid-parent">
+          <div class="grid-item">
+            <img src="./images/walter white.svg" alt="" class="grid-img" />
+            <h2 class="subheading">walter white</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              explicabo quas reiciendis, similique soluta necessitatibus veniam
+              repellendus corrupti neque sapiente!
+            </p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/saul goodman.svg" alt="" class="grid-img" />
+            <h2 class="subheading">saul goodman</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              explicabo quas reiciendis, similique soluta necessitatibus veniam
+              repellendus corrupti neque sapiente!
+            </p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/jesse pinkman.svg" alt="" class="grid-img" />
+            <h2 class="subheading">jesse pinkman</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              explicabo quas reiciendis, similique soluta necessitatibus veniam
+              repellendus corrupti neque sapiente!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event  -->
+    <section class="event">
+      <div class="container">
+        <div class="event-wrap">
+          <h2 class="subheading">are you ready ?</h2>
+          <h1>
+            be a part of <br />
+            the <br />
+            big thing
+          </h1>
+          <a href="#" class="btn subheading">view price</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <section class="footer">
+      <div class="container">
+        <a href="#" class="logo"> Manish </a>
+
+        <div class="row">
+          <div class="footer-col">
+            <h4>Krypto</h4>
+            <ul>
+              <li class="footer-li"><a href="#" class="footer-a">Home</a></li>
+              <li class="footer-li"><a href="#" class="footer-a">about</a></li>
+              <li class="footer-li">
+                <a href="#" class="footer-a">Buy NFTs</a>
+              </li>
+              <li class="footer-li">
+                <a href="#" class="footer-a">Sell NFTs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Market</h4>
+            <ul>
+              <li class="footer-li"><a href="#" class="footer-a">Browse</a></li>
+              <li class="footer-li">
+                <a href="#" class="footer-a">Buy NFTs</a>
+              </li>
+              <li class="footer-li">
+                <a href="#" class="footer-a">Sell NFTs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col icons">
+            <h4>Contact</h4>
+            <ul>
+              <li class="footer-li">
+                <a href="#" class="footer-a"
+                  ><i class="fa-brands fa-twitter fa-2x"></i
+                ></a>
+              </li>
+              <li class="footer-li">
+                <a href="#" class="footer-a"
+                  ><i class="fa-brands fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li class="footer-li">
+                <a href="#" class="footer-a"
+                  ><i class="fa-brands fa-youtube fa-2x"></i
+                ></a>
+              </li>
+              <li class="footer-li">
+                <a href="#" class="footer-a"
+                  ><i class="fa-brands fa-github fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="newsletter">
+            <h4>Join our newsletter</h4>
+            <div class="news-wrap">
+              <input type="text" placeholder="email" class="footer-input" />
+              <a href="#" class="footer-btn btn">submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-end"></div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
+-----------------------------
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #01073d;
+  color: white;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 70em;
+  width: 90%;
+  padding: 1em 1.5em;
+  margin: 0 auto;
+}
+
+/* navbar code starts here */
+.nav-container {
+  max-width: 80em;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+header {
+  position: relative;
+}
+
+.logo-wrap {
+  text-align: center;
+  padding: 1em 0;
+}
+.logo {
+  font-size: 2.25rem;
+  color: white;
+}
+.logo:hover {
+  color: #b4dbdb;
+}
+
+.nav-ul {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background-color: #24225a;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: 0.2s ease;
+}
+.nav-ul.active {
+  left: 0;
+  overflow: hidden;
+  z-index: 3;
+}
+.nav-li a {
+  color: white;
+  font-size: 2rem;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1em;
+  z-index: 4;
+}
+.hamburger.active {
+  position: fixed;
+  top: 3.5em;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+/* ANIMATION  */
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.subheading {
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* Hero section code starts  */
+.hero {
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.115rem;
+  margin-bottom: 3em;
+  letter-spacing: 1px;
+}
+.hero-right img {
+  margin-top: 3em;
+}
+.btn {
+  background-color: #7f7fdf;
+  color: white;
+  padding: 1em 1.5em;
+  border-radius: 100px;
+}
+.btn:hover {
+  background-color: #a3a3f1;
+}
+.ghost:hover {
+  background-color: #cc8c2d;
+}
+.ghost {
+  background: none;
+  border: 2px solid #9ad5d6;
+  padding: 1em 1.5em;
+  border-radius: 100px;
+  color: white;
+  margin-left: 0.5em;
+}
+
+.circle-one {
+  position: absolute;
+  right: 0;
+  top: 5rem;
+  bottom: 0;
+  user-select: none;
+  z-index: -1;
+}
+.circle-two {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  user-select: none;
+  z-index: -1;
+}
+
+@media screen and (max-width: 468px) {
+  .btn-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin-bottom: 1em;
+  }
+}
+
+/* Company codes start here  */
+:root {
+  --marque-width: 100vw;
+  --marque-height: 8vh;
+  --marque-elements: 8;
+  --marque-elements-displayed: 4;
+  --marque-element-width: calc(
+    var(--marque-width) / var(--marque-elements-displayed)
+  );
+  --marque-animation-duration: calc(var(--marque-elements) * 4s);
+}
+
+.marque {
+  width: var(--marque-width);
+  height: var(--marque-height);
+  background-color: #24225a;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+  z-index: -1;
+}
+.marque-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: scrolling var(--marque-animation-duration) linear infinite;
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(
+      calc(-1 * var(--marque-element-width) * var(--marque-elements))
+    );
+  }
+}
+.marque-content li {
+  width: var(--marque-element-width);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+.marque-content li img {
+  user-select: none;
+}
+
+/* buy codes start here  */
+.buy {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.buy-two {
+  margin-top: 5em;
+}
+.two-right img {
+  margin-top: 1em;
+}
+
+/* testimonial code start here   */
+.reviews {
+  text-align: center;
+}
+.reviews h1 {
+  margin-bottom: 2.5em;
+}
+.review-title {
+  color: #aad9d9;
+}
+
+.grid-item {
+  background-color: #24225a;
+  padding: 4em 2em;
+  position: relative;
+  margin-bottom: 8em;
+}
+
+.grid-item h2 {
+  margin: 1em 0;
+}
+.grid-img {
+  position: absolute;
+  top: -5.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  user-select: none;
+  mix-blend-mode: luminosity;
+}
+
+/* event code start here  */
+.event {
+  text-align: center;
+}
+.event-wrap {
+  background: linear-gradient(120deg, #7f7fd6, #9ad5d6);
+  padding: 3em;
+  border-radius: 37px;
+}
+.event .btn {
+  background-color: black;
+  font-size: 1rem;
+}
+.event h1 {
+  margin-bottom: 1em;
+}
+.event .btn:hover {
+  background-color: #cc8c2d;
+}
+
+/* footer code start here  */
+.footer {
+  margin-top: 5em;
+}
+.footer-col ul li {
+  margin-bottom: 1em;
+}
+.footer a {
+  color: white;
+  font-weight: 200;
+}
+.footer-col h4 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.icons ul {
+  display: flex;
+}
+.icons li {
+  margin-right: 1em;
+}
+.icons a:hover {
+  color: #9ad5d6;
+}
+
+.newsletter h4 {
+  margin: 1em 0;
+  font-size: 1.2rem;
+}
+
+.footer-input {
+  background-color: #24225a;
+  padding: 1em 6em 1em 1.5em;
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  color: white;
+  position: relative;
+}
+.news-wrap {
+  position: relative;
+}
+
+.footer-btn {
+  position: absolute;
+  top: 0;
+  left: 16em;
+}
+.footer-btn:hover {
+  background-color: #cc8c2d;
+}
+
+::placeholder {
+  color: white;
+}
+
+.page-end {
+  background: linear-gradient(to right, #9ad4d6, #91d2d2);
+  width: 100%;
+  height: 1vh;
+}
+
+/* MEDIA QUERY  */
+@media screen and (min-width: 800px) {
+  .split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* navbar */
+  .hamburger {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-ul {
+    position: static;
+    flex-direction: row;
+    background-color: transparent;
+    height: 100%;
+    justify-content: flex-end;
+  }
+  .nav-li a {
+    font-size: 1.5em;
+    margin-left: 2em;
+  }
+  .nav-a {
+    position: relative;
+  }
+  .nav-a::before {
+    content: " ";
+    width: 0%;
+    position: absolute;
+    height: 3px;
+    background-color: #cc8c2d;
+    bottom: -2px;
+    transition: 0.3s ease;
+  }
+  .nav-a:hover::before {
+    width: 100%;
+  }
+  /* HERO  */
+  .hero {
+    text-align: left;
+  }
+  .hero-left {
+    width: 40%;
+  }
+  h1 {
+    font-size: 4.25rem;
+    line-height: 1;
+  }
+
+  /* company  */
+  .marque-fixed {
+    background-color: #24225a;
+    max-width: 60em;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .marque-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .marque-fixed img:hover {
+    opacity: 75%;
+  }
+  .marque {
+    display: none;
+  }
+
+  /* buy  */
+  .buy h1 {
+    margin-bottom: 0.5em;
+  }
+  .buy h2 {
+    margin-top: 3em;
+  }
+  .buy-left {
+    width: 45%;
+  }
+  .buy-right {
+    width: 50%;
+    text-align: left;
+  }
+  /* buy 2  */
+  .buy-two {
+    margin-top: 5em;
+  }
+  .buy-two h1 {
+    margin-bottom: 0.5em;
+  }
+  .two-left {
+    width: 45%;
+    text-align: left;
+  }
+  .two-right {
+    width: 40%;
+  }
+  /* testimonials  */
+  .reviews {
+    padding-top: 5em;
+  }
+  .grid-parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3em;
+  }
+  /* event  */
+  .event-wrap {
+    padding: 8em;
+  }
+  .event h1 {
+    font-size: 3.5em;
+  }
+  /* footer  */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3em;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1050px) {
+  .btn-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .ghost {
+    text-align: center;
+  }
+}
+----------------------------
+const hamburger = document.querySelector(".hamburger");
+const navUl = document.querySelector(".nav-ul");
+
+hamburger.addEventListener("click", function () {
+  hamburger.classList.toggle("active");
+  navUl.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-a").forEach((n) =>
+  n.addEventListener("click", function () {
+    hamburger.classList.remove("active");
+    navUl.classList.toggle("active");
+  })
+);
+
+//scroll
+// const root = document.documentElement;
+// const marqueElementDisplayed = getComputedStyle(root).getPropertyValue(
+//   "--marque-elements-displayed"
+// );
+
+// const marqueContent = document.querySelector(".marque-content");
+// root.style.setProperty("--marque-elements", marqueContent.children.length);
+
+// for (let i = 0; i < marqueElementDisplayed; i++) {
+//   marqueContent.appendChild(marqueContent.children[i].cloneNode(true));
+// }
+
+// Media query for company
+// function screenChange(e) {
+//   if (e.matches) {
+//     // if the screen is above 800px then...
+//     marqueAni.classList.add("hide");
+//     marqueFixed.classList.remove("hide");
+//   } else {
+//     // if the screen is below 800px then...
+//     marqueFixed.classList.add("hide");
+//     marqueAni.classList.remove("hide");
+//   }
+// }
+// const mediaQuery = window.matchMedia("(min-width: 800px)");
+// mediaQuery.addListener(screenChange);
+// screenChange(mediaQuery);
